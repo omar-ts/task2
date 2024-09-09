@@ -1,0 +1,14 @@
+D:\ErrasoftBackend\sessions\test\test\bin\Debug\net8.0\test.exe
+D:\ErrasoftBackend\sessions\test\test\bin\Debug\net8.0\test.deps.json
+D:\ErrasoftBackend\sessions\test\test\bin\Debug\net8.0\test.runtimeconfig.json
+D:\ErrasoftBackend\sessions\test\test\bin\Debug\net8.0\test.dll
+D:\ErrasoftBackend\sessions\test\test\bin\Debug\net8.0\test.pdb
+D:\ErrasoftBackend\sessions\test\test\obj\Debug\net8.0\test.GeneratedMSBuildEditorConfig.editorconfig
+D:\ErrasoftBackend\sessions\test\test\obj\Debug\net8.0\test.AssemblyInfoInputs.cache
+D:\ErrasoftBackend\sessions\test\test\obj\Debug\net8.0\test.AssemblyInfo.cs
+D:\ErrasoftBackend\sessions\test\test\obj\Debug\net8.0\test.csproj.CoreCompileInputs.cache
+D:\ErrasoftBackend\sessions\test\test\obj\Debug\net8.0\test.dll
+D:\ErrasoftBackend\sessions\test\test\obj\Debug\net8.0\refint\test.dll
+D:\ErrasoftBackend\sessions\test\test\obj\Debug\net8.0\test.pdb
+D:\ErrasoftBackend\sessions\test\test\obj\Debug\net8.0\test.genruntimeconfig.cache
+D:\ErrasoftBackend\sessions\test\test\obj\Debug\net8.0\ref\test.dll

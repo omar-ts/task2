@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ErrasoftBackend\\sessions\\test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{995B73D5-D877-4D26-9FAB-DE716EFCCD01}|demo\\demo.csproj|d:\\errasoftbackend\\sessions\\test\\demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{995B73D5-D877-4D26-9FAB-DE716EFCCD01}|demo\\demo.csproj|solutionrelative:demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE8320D-633B-405A-A234-4634660A0ADE}|test\\test.csproj|d:\\errasoftbackend\\sessions\\test\\test\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE8320D-633B-405A-A234-4634660A0ADE}|test\\test.csproj|solutionrelative:test\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ErrasoftBackend\\sessions\\test\\demo\\Program.cs",
+              "RelativeDocumentMoniker": "demo\\Program.cs",
+              "ToolTip": "D:\\ErrasoftBackend\\sessions\\test\\demo\\Program.cs*",
+              "RelativeToolTip": "demo\\Program.cs*",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwDIAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T04:35:30.904Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "test.cs",
+              "DocumentMoniker": "D:\\ErrasoftBackend\\sessions\\test\\test\\test.cs",
+              "RelativeDocumentMoniker": "test\\test.cs",
+              "ToolTip": "D:\\ErrasoftBackend\\sessions\\test\\test\\test.cs",
+              "RelativeToolTip": "test\\test.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T05:40:01.072Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
