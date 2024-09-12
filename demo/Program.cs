@@ -26,6 +26,8 @@ namespace demo
                 Console.WriteLine("F - Find a number");
                 Console.WriteLine("C - Clear the whole List");
                 Console.WriteLine("Q - Quit");
+                Console.WriteLine("K - Ascending number");
+                Console.WriteLine("J - Descending number");
                 Console.Write("Enter what do you want from these choices: ");
                 x = char.Parse(Console.ReadLine());
                 if (x == 'p' || x == 'P')
@@ -44,21 +46,37 @@ namespace demo
                         Console.WriteLine(" ]");
                     }
                 }
+
                 //Add values and not duplicated
                 if (x == 'A' || x == 'a')
                 {
                     Console.Write("Enter a number: ");
-                    number = int.Parse(Console.ReadLine());
-                    if(nums.Contains(number))
+                    int d = 2;
+                    do
                     {
-                        Console.WriteLine("Cannot add duplicate numbers");
-                    }
-                    else
-                    {
-                        nums.Add(number);
-                        Console.WriteLine($"{number} is added");
-                    }
+                        number = int.Parse(Console.ReadLine());
+                        bool isDuplicated = false;
+                        for (i = 0; i < nums.Count; i++)
+                        {
+                            if (number == nums[i])
+                            {
+                                isDuplicated = true;
+                                break;
+                            }
+                        }
+                        if (isDuplicated)
+                        {
+                            Console.Write("Choose another number do not be dupliacted: ");
+                        }
+                        else
+                        {
+                            nums.Add(number);
+                            d = 3;
+                        }
+                    } while (d == 2);     
                 }
+               
+               
                 if (x == 'm' || x == 'M')
                 {
                     for (i = 0; i < nums.Count; i++)
@@ -102,17 +120,69 @@ namespace demo
                 //find index of number you want 
                 if(x=='f' || x=='F')
                 {
-                    Console.Write("Enter number that you want its index: ");
-                    find = int.Parse(Console.ReadLine());
-                    if(nums.Contains(find))
+                    int m = 2;
+                    Console.Write("Enter number: ");
+                    do
                     {
-                        Console.Write($"index is : {nums.IndexOf(find)}");
-                    }
-                    else
+                        int index;
+                        find = int.Parse(Console.ReadLine());
+                        bool place = false;
+                        for (index = 0; index < nums.Count; index++)
+                        {
+                            if (find == nums[index])
+                            {
+                                place = true;
+                                break;
+                            }
+                        }
+                        if (place)
+                        {
+                            Console.WriteLine($"Index of {find} is {index}");
+                            m = 3;
+                        }
+                        else
+                        {
+                            Console.Write("Number doesnot exist , enter another number: ");
+                        }
+                    } while (m == 2);
+                   
+                }
+                if(x=='k'||x=='K')
+                {
+                    Console.Write($"[");
+                    for(i=0; i<nums.Count;i++)
                     {
-                        Console.WriteLine("the number you entered is not in the list");
-                        Console.WriteLine("try again");
+                        for(int j=i+1; j<nums.Count;j++)
+                        {
+                            if (nums[i] > nums[j])
+                            {
+                                int a = nums[i];
+                                nums[i] = nums[j];
+                                nums[j] = a;
+                            }
+                        }
+                        Console.Write($" {nums[i]} ");
                     }
+                    Console.Write($"]");
+                }
+
+                if (x == 'j' || x == 'J')
+                {
+                    Console.Write($"[");
+                    for (i = 0; i < nums.Count; i++)
+                    {
+                        for (int j = i + 1; j < nums.Count; j++)
+                        {
+                            if (nums[i] < nums[j])
+                            {
+                                int a = nums[i];
+                                nums[i] = nums[j];
+                                nums[j] = a;
+                            }
+                        }
+                        Console.Write($" {nums[i]} ");
+                    }
+                    Console.Write($"]");
                 }
                 Console.WriteLine();
             } while (x != 'Q' && x!='q');

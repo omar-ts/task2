@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ErrasoftBackend\\sessions\\test\\demo\\demo.csproj",
+      "projectUniqueName": "D:\\ErrasoftBackend\\sessions\\task2\\demo\\demo.csproj",
       "projectName": "demo",
-      "projectPath": "D:\\ErrasoftBackend\\sessions\\test\\demo\\demo.csproj",
+      "projectPath": "D:\\ErrasoftBackend\\sessions\\task2\\demo\\demo.csproj",
       "packagesPath": "C:\\Users\\CLINIC\\.nuget\\packages\\",
-      "outputPath": "D:\\ErrasoftBackend\\sessions\\test\\demo\\obj\\",
+      "outputPath": "D:\\ErrasoftBackend\\sessions\\task2\\demo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CLINIC\\AppData\\Roaming\\NuGet\\NuGet.Config",

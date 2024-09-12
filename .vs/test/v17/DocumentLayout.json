@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ErrasoftBackend\\sessions\\test\\",
+  "WorkspaceRootPath": "D:\\ErrasoftBackend\\sessions\\task2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{995B73D5-D877-4D26-9FAB-DE716EFCCD01}|demo\\demo.csproj|d:\\errasoftbackend\\sessions\\test\\demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{995B73D5-D877-4D26-9FAB-DE716EFCCD01}|demo\\demo.csproj|d:\\errasoftbackend\\sessions\\task2\\demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{995B73D5-D877-4D26-9FAB-DE716EFCCD01}|demo\\demo.csproj|solutionrelative:demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ErrasoftBackend\\sessions\\test\\demo\\Program.cs",
+              "DocumentMoniker": "D:\\ErrasoftBackend\\sessions\\task2\\demo\\Program.cs",
               "RelativeDocumentMoniker": "demo\\Program.cs",
-              "ToolTip": "D:\\ErrasoftBackend\\sessions\\test\\demo\\Program.cs",
+              "ToolTip": "D:\\ErrasoftBackend\\sessions\\task2\\demo\\Program.cs",
               "RelativeToolTip": "demo\\Program.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAQwHUAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAQwKUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T04:35:30.904Z",
               "IsPinned": true,
